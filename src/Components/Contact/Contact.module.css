@@ -1,26 +1,26 @@
 .card {
-display: flex;
-gap: 5px;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
 }
 
 .name,
 .number {
-margin: 0;
+    margin: 0;
 }
 
 .btn {
-padding: 5px 10px;
-border: 1px solid #9c9b9b;
-border-radius: 5px;
-color: #0a0a0a;
-cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9c9b9b;
+    border-radius: 5px;
+    color: #0a0a0a;
+    cursor: pointer;
 }
 
 .btn:hover {
-background-color: #81c6d8;
+    background-color: #81c6d8;
 }
