@@ -35,19 +35,23 @@ return (
     onSubmit={handleSubmit}
     validationSchema={ContactsSchema}
     >
-    <Form className={css.formContainer}>
+        <Form className={css.formContainer}>
+            <div className={css.field}>
         <label className={css.fieldName} htmlFor={nameFieldId}>
         Name
         </label>
         <Field className={css.input} name="name" id={nameFieldId} />
         <ErrorMessage className={css.error} name="name" component="span" />
+            </div>
 
+            <div className={css.field}>
         <label className={css.fieldName} htmlFor={numberFieldId}>
         Number
         </label>
         <Field className={css.input} name="number" id={numberFieldId} />
         <ErrorMessage className={css.error} name="number" component="span" />
-
+            </div>
+            
         <button className={css.button} type="submit">
         Add contact
         </button>
