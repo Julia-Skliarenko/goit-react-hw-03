@@ -1,0 +1,27 @@
+.searchBox {
+margin: 20px;
+width: 425px;
+display: flex;
+flex-direction: column;
+}
+
+.searchTitle {
+color: black;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.searchInput {
+border-radius: 5px;
+border-color: rgb(92, 92, 92);
+margin-top: 10px;
+display: block;
+width: auto;
+height: 35px;
+background-color: rgb(255, 255, 255);
+color: rgb(66, 66, 66);
+padding-left: 10px;
+padding-right: 10px;
+font-weight: 600;
+}
